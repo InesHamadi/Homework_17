@@ -1,0 +1,230 @@
+/* NAVIGATION BAR  */
+.nav{
+  background-color: #FFFFFF;
+}
+.logo{
+  width: 101px;
+  height: 118;
+}
+/* links */
+a:active{
+  color: #254A59;
+  text-decoration: none;
+}
+a:visited{
+  color: #7E7373;
+  text-decoration: none;
+}
+a:hover{
+    color: #254A59;
+}
+a:link{
+  font-family: calibri, sans-serif;
+  color: #7E7373;
+font-weight: 700;
+font-style: normal;
+  font-size: 20px;
+  text-decoration: none;
+}
+/* underline decoration start here  */
+.about:hover:before {
+  content: '';
+  width: 75px;
+  position: absolute;
+  /* top: 85px;
+  right: 360px;
+  height: 3px; */
+  background: #BBA64B;
+  box-shadow: 0px 3px 6px #A29B9B;
+}
+.work:hover:before {
+  content: '';
+  width: 75px;
+  position: absolute;
+  /* top: 85px;
+  right: 215px;
+  height: 3px; */
+  background: #BBA64B;
+  box-shadow: 0px 3px 6px #A29B9B;
+}
+.contact:hover:before {
+  content: '';
+  width: 75px;
+  position: absolute;
+  /* top: 85px;
+  right: 85px;
+  height: 3px; */
+  background: #BBA64B;
+  box-shadow: 0px 3px 6px #A29B9B;
+}
+/* underline decoration end here  */
+li{
+  float: right;
+list-style-type: none;
+text-align: center;
+padding: 20px;
+margin: 20px;
+}
+/*NAVBAR PHONE STARTS HERE*/
+#burger{
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .nav{
+  height: 106px;
+  background-color: #FFFFFF;
+  }
+  .logo{
+    width: 66px;
+  float: left;
+  margin: 10px;
+  }
+  #burger{
+    display: block;
+  float: right;
+  width: 42px;
+  padding: 20px;
+  margin: 10px;
+  }
+
+li{
+    display: none;
+  }
+}
+/*NAVBAR PHONE ENDS HERE*/
+
+/* NAVIGATION BAR END HERE */
+
+
+/* body1 start here + profile */
+
+.col-6{
+  height: 800px;
+background-color: #F5F7F6;
+padding: 30px;
+}
+.profile{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+  width: 352px;
+  height: 341.02;
+  /* style of picture */
+  border: 4px solid #BBA64B;
+  border-radius: 200%;
+  box-shadow: 0px 3px 6px #A29B9B;
+}
+/* body1 + description */
+.coldescription{
+  height: 239px;
+background-color: #FFFFFF;
+padding: 30px;
+margin: 30px;
+/* style of box */
+border: 1px solid #BBA64B;
+box-shadow: 0px 3px 6px #A29B9B;
+}
+.description{
+  padding: 30px 20px 30px 20px ;
+    font-family:calibri, sans-serif #A29B9B;
+  text-align: center;
+}
+h1{
+  font-family:Litania, serif;
+  text-align: center;
+  color: #254A59;
+}
+/* body1 decoration*/
+#dec1{
+  position: absolute;
+left: -30px;
+top: 750px;
+width: 236px;
+height: 275px;
+}
+#dec2{
+  position: absolute;
+left: 20px;
+top: 735px;
+width: 179px;
+height: 124px;
+}
+
+/* body 1 phone starts here */
+@media only screen and (max-width: 600px) {
+
+  .col-6{
+    height: 1100px;
+  background-color: #F5F7F6;
+  padding: 30px;
+  }
+
+  .profile{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+    width: 204px;
+    height: 200px;
+  }
+
+  .coldescription{
+    display: flex;
+    flex-direction: column;
+    height: 790px;
+  background-color: #FFFFFF;
+  padding: 30px;
+  margin: 30px;
+  }
+
+  .description{
+    line-height: 42px;
+  }
+
+  /* body1 phone decoration*/
+  #dec1{
+    position: absolute;
+  left: -20px;
+  top: 1180px;
+  width: 135px;
+  height: 158px;
+  }
+  #dec2{
+    position: absolute;
+  left: 20px;
+  top: 1170px;
+  width: 103px;
+  height: 71px;
+  }
+}
+/* body 1 phone ends here */
+
+/* pictures section starts here */
+#photos{
+display: inline;
+align-items: center;
+  margin: 40px 10px;
+  width: 352px;
+  height: 341.02;
+  /* style of pictures */
+box-shadow: 0px 3px 6px #A29B9B;
+border: 1px solid #BBA64B;
+border-radius: 10px;
+}
+/* pictures section PHONE starts here */
+
+@media only screen and (max-width: 600px){
+.col4{
+padding-top: 30px;
+margin: 55px;
+  height: 1211px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+#photo{
+  justify-content: center;
+width: 340px;
+height: 348px;
+}
+}
