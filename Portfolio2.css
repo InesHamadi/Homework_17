@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.background{
+  background-image: url("../images/picture3.jpg");
+  height: 1000px;
+
+  /* height: auto; */
+  margin: 0;
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+/* .border{
+max-width: 100%;
+} */
+
+/* div.container{
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0;
+} */
