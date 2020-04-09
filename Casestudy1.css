@@ -1,0 +1,144 @@
+/* NAVIGATION BAR  */
+.nav{
+  background-color: #FFFFFF;
+}
+.logo{
+  width: 101px;
+  height: 118;
+}
+/* links */
+a:active{
+  color: #254A59;
+  text-decoration: none;
+}
+a:visited{
+  color: #7E7373;
+  text-decoration: none;
+}
+a:hover{
+    color: #254A59;
+}
+a:link{
+  font-family: calibri, sans-serif;
+  color: #7E7373;
+font-weight: 700;
+font-style: normal;
+  font-size: 20px;
+  text-decoration: none;
+}
+/* underline decoration start here  */
+.about:hover:before {
+  content: '';
+  width: 75px;
+  position: absolute;
+  /* top: 85px;
+  right: 360px;
+  height: 3px; */
+  background: #BBA64B;
+  box-shadow: 0px 3px 6px #A29B9B;
+}
+.work:hover:before {
+  content: '';
+  width: 75px;
+  position: absolute;
+  /* top: 85px;
+  right: 215px;
+  height: 3px; */
+  background: #BBA64B;
+  box-shadow: 0px 3px 6px #A29B9B;
+}
+.contact:hover:before {
+  content: '';
+  width: 75px;
+  position: absolute;
+  /* top: 85px;
+  right: 85px;
+  height: 3px; */
+  background: #BBA64B;
+  box-shadow: 0px 3px 6px #A29B9B;
+}
+/* underline decoration end here  */
+li{
+  float: right;
+list-style-type: none;
+text-align: center;
+padding: 20px;
+margin: 20px;
+}
+/*NAVBAR PHONE STARTS HERE*/
+#burger{
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .nav{
+  height: 106px;
+  background-color: #FFFFFF;
+  }
+  .logo{
+    width: 66px;
+  float: left;
+  margin: 10px;
+  }
+  #burger{
+    display: block;
+  float: right;
+  width: 42px;
+  padding: 20px;
+  margin: 10px;
+  }
+
+li .about .work .contact{
+    display: none;
+  }
+}
+/*NAVBAR PHONE ENDS HERE*/
+/* NAVIGATION BAR END HERE */
+
+h1{
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  font-family:Litania, serif;
+  color: #254A59;
+}
+.mockup{
+  width: 50%;
+  height: auto;
+  box-shadow: 2px 3px 6px 0px;
+  border-radius: 20px;
+  float: left;
+}
+p{
+  font-size: 20px;
+  text-align: left;
+  width: 40%;
+  float: left;
+  margin: 40px;
+}
+ul.description{
+  font-size: 20px;
+  text-align: left;
+  width: 40%;
+  float: left;
+  margin: 40px;
+}
+h2{
+  border: 2px solid grey;
+  margin: 20px;
+  padding: 50px;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  color: grey;
+}
+li{
+  text-align: left;
+}
+h3{
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  color: darkgrey;
+}
