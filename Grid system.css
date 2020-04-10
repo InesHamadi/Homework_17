@@ -1,0 +1,16 @@
+/* GRID SYSTEM */
+.container{
+  display: grid;
+  width: 100%;
+}
+.row{
+  display: grid;
+  grid-template-rows: repeat(5,470px);
+}
+/* first row */
+.col{
+  display: grid;
+   grid-template-columns: repeat(12,131px);
+   grid-column-gap: 30px;
+}
+/* GRID SYSTEM END */

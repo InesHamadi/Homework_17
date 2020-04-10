@@ -1,0 +1,25 @@
+.red{
+width: 300px;
+height: 300px;
+background-color: red;
+margin: 10px;
+}
+
+.yellow{
+width: 300px;
+height: 300px;
+background-color: yellow;
+margin: 10px;
+}
+
+.blue{
+width: 300px;
+height: 300px;
+background-color: blue;
+margin: 10px;
+}
+
+.mycenter{
+	margin: 0 auto;
+	margin-top: 20px;
+}

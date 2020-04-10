@@ -1,0 +1,173 @@
+body{
+  background-color: #FFFFFF;
+}
+/* NAVIGATION BAR  */
+.nav #about{
+  background-color: #FFFFFF;
+}
+.logo{
+  width: 101px;
+  height: 118;
+}
+/* links */
+a:visited#about{
+  text-decoration: none;
+    color: #7E7373;
+}
+a:active#about{
+  color: #BBA64B;
+  text-decoration: none;
+}
+a:hover#about{
+  shadow: 0px 3px 6px #A29B9B;
+    color: #254A59;
+}
+a:link#about{
+  font-family: calibri, sans-serif;
+  color: #7E7373;
+font-weight: 300;
+font-style: normal;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+li.about{
+  float: right;
+list-style-type: none;
+text-align: center;
+padding: 20px;
+margin: 20px;
+}
+
+/*NAVBAR PHONE STARTS HERE*/
+#burger{
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .nav #about{
+  height: 106px;
+  background-color: #FFFFFF;
+  }
+  .logo{
+    width: 66px;
+  float: left;
+  margin: 10px;
+  }
+  #burger{
+    display: block;
+  float: right;
+  width: 42px;
+  padding: 20px;
+  margin: 10px;
+  }
+li #about{
+    display: none;
+  }
+}
+/*NAVBAR PHONE ENDS HERE*/
+/* NAVIGATION BAR END HERE */
+
+
+/* container (body) starts here */
+
+
+h1{
+  margin-bottom: 0;
+  color: #254A59;
+  text-align: center;
+  font-family: essonnes-display, serif;
+font-weight: 400;
+font-style: normal;
+}
+h2{
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding-top: 0px;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  font-family: calibri, sans-serif;
+  color: #888888;
+font-weight: 100;
+font-style: normal;
+  font-size: 20px;
+}
+h3{
+  margin-bottom: 0;
+  color: #BBA64B;
+  text-align: center;
+  font-family: essonnes-display, serif;
+font-weight: 550;
+font-style: normal;
+letter-spacing: 2px;
+}
+/* images here */
+img#mockup1{
+  width: 25%;
+display: inline-block;
+align-items: center;
+}
+img#mockup2{
+  width: 30%;
+display: inline-block;
+align-items: center;
+}
+div.images{
+  float: left;
+  margin: 40px;
+width: 60%;
+padding: 10px;
+}
+/* images end */
+
+div.description{
+  margin: auto;
+width: 70%;
+padding: 10px;
+}
+
+ul{
+  font-family: calibri, sans-serif;
+  color: #000000;
+  opacity: 70%;
+font-weight: 100;
+font-style: normal;
+  font-size: 20px;
+  margin: 40px;
+}
+
+a#projectlink{
+  text-decoration: none;
+  font-family: calibri, sans-serif;
+  color: #000000;
+  opacity: 70%;
+font-weight: 100;
+font-style: normal;
+  font-size: 14px;
+
+}
+button{
+  margin: 0px;
+  padding: 10px;
+  border-radius: 20px;
+    box-shadow: 0px 3px 6px #A29B9B;
+    border: 1px solid #BBA64B;
+}
+/* US GOV STARTS HERE */
+
+.images2{
+  margin: 50px;
+float: left;
+  width: 40%;
+  height: auto;
+
+  /* style of picture */
+  border-radius: 100px;
+  border: 1px solid #BBA64B;
+  box-shadow: 0px 3px 6px #A29B9B;
+}
+div.description2{
+  margin: 50px;
+width: 100%;
+padding: 10px;
+}
